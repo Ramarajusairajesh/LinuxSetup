@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ["$UID" -ne 10]; then
+if ["$UID" -ne 0]; then
     echo "Running this script requires root permission! command:sudo ./Setup.sh"
     exit 1
 fi
